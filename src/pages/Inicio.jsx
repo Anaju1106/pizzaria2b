@@ -6,9 +6,12 @@ const Inicio = () => {
 
     return (
         <div>
+            <h2>Título da página</h2>
            <p>Outra tela Inicial</p>
-           <img className='img-fluid' sr{logo}
-           alt='logo'> </img>
+           <img className='img-fluid'
+           sr={logo}
+                alt='logo'> </img>
+
         </div>
     )
 }
